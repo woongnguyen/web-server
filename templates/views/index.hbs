@@ -5,16 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>index</title>
   <link rel="stylesheet" href="/css/styles.css">
-  <script src="js/script.js"></script>
 </head>
 <body>
   <section>
     {{>header}}
-    <h1>weather</h1>
     <p>Create by {{ name }}</p>
+    <p>Use this site to get your weather!</p>
+    <form>
+      <input type="text" placeholder="Location">
+      <button>Search</button>
+    </form>
+    <p class="mess-01"></p>
+    <p class="mess-02"></p>
   </section>
   <footer>
     {{>footer}}
   </footer>
+  <script src="js/script.js"></script>
 </body>
 </html>
