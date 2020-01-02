@@ -62,11 +62,6 @@ app.get('/weather', (req, res) =>{
     })
 
   })
-  // res.send({
-  //   forecast:'It is snowing',
-  //   location: 'Ho Chi Minh',
-  //   address: req.query.address
-  // })
 })
 
 app. get('/products', (req, res) => {
@@ -98,5 +93,5 @@ app.get('*', (req, res) =>{
 })
 
 app.listen(port, () =>{
-  console.log('Server is up on port 3000.' + port)
+  console.log('Server is up on port ' + port)
 })
